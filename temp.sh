@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Initialize max temperature
 max_temp=0
 
 # Loop over all thermal zones

@@ -20,7 +20,6 @@ done
 
 idle=$((idle2 - idle1))
 total=$((total2 - total1))
-#usage=$((100 * (total - idle) / total))
 usage=$(echo "scale=2; 100 * ($total - $idle) / $total" | bc)
 
 echo "$usage%"
